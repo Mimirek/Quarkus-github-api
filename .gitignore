@@ -1,0 +1,39 @@
+# Java general
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+dependency-reduced-pom.xml
+release.properties
+*.log
+
+# Quarkus
+.quarkus/
+.quarkus-dev/
+devmode.log
+
+# IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.out
